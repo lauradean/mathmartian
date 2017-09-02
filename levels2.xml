@@ -1,0 +1,739 @@
+<levels>
+    <level id="1">
+        <label>Addition 1</label>
+        <operator>+</operator>
+        <align>horizontal</align>
+		<increment>1</increment>
+        <sublevels>
+            <sublevel id="1">
+                <label>Zeroes</label>
+                <nums>
+                    <num id="1">
+                        <min>0</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>0</min>
+                        <max>0</max>
+                    </num>  
+                </nums>            
+            </sublevel>
+            <sublevel id="2">
+                <label>Ones</label>
+                <nums>
+                    <num id="1">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>1</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="3">
+                <label>Twos</label>
+                <nums>
+                    <num id="1">
+                        <min>2</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>2</min>
+                        <max>2</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="4">
+                <label>Threes</label>
+                <nums>
+                    <num id="1">
+                        <min>3</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>3</min>
+                        <max>3</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="5">
+                <label>Fours</label>
+                <nums>
+                    <num id="1">
+                        <min>4</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>4</min>
+                        <max>4</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="6">
+                <label>Five and Up</label>
+                <nums>
+                    <num id="1">
+                        <min>5</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>5</min>
+                        <max>5</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="7">
+                <label>Review</label>
+                <nums>
+                    <num id="1">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel> 
+        </sublevels>
+    </level>
+    <level id="2">
+        <label>Subtraction 1</label>
+        <operator>-</operator>
+        <align>horizontal</align>
+		<increment>1</increment>
+        <sublevels>
+            <sublevel id="1">
+                <label>Zeroes</label>
+                <nums>
+                    <num id="1">
+                        <min>0</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>0</min>
+                        <max>0</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="2">
+                <label>Ones</label>
+                <nums>
+                    <num id="1">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>1</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="3">
+                <label>Twos</label>
+                <nums>
+                    <num id="1">
+                        <min>2</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>2</min>
+                        <max>2</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="4">
+                <label>Threes</label>
+                <nums>
+                    <num id="1">
+                        <min>3</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>3</min>
+                        <max>3</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="5">
+                <label>Fours</label>
+                <nums>
+                    <num id="1">
+                        <min>4</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>4</min>
+                        <max>4</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="6">
+                <label>Five and Up</label>
+                <nums>
+                    <num id="1">
+                        <min>5</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>5</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="7">
+                <label>Review</label>
+                <nums>
+                    <num id="1">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel> 
+        </sublevels>
+    </level>
+    <level id="3">	
+        <label>Multiplication 1</label>
+        <operator>*</operator>
+        <align>horizontal</align>
+		<increment>1</increment>
+        <sublevels>
+            <sublevel id="1">
+                <label>Zeroes</label>
+                <nums>
+                    <num id="1">
+                        <min>0</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>0</min>
+                        <max>0</max>
+                    </num>  
+                </nums>            
+            </sublevel>
+            <sublevel id="2">
+                <label>Ones</label>
+                <nums>
+                    <num id="1">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>1</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="3">
+                <label>Twos</label>
+                <nums>
+                    <num id="1">
+                        <min>2</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>2</min>
+                        <max>2</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="4">
+                <label>Threes</label>
+                <nums>
+                    <num id="1">
+                        <min>3</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>3</min>
+                        <max>3</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="5">
+                <label>Fours</label>
+                <nums>
+                    <num id="1">
+                        <min>4</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>4</min>
+                        <max>4</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="6">
+                <label>Five and Up</label>
+                <nums>
+                    <num id="1">
+                        <min>5</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>5</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="7">
+                <label>Review</label>
+                <nums>
+                    <num id="1">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel> 
+        </sublevels>
+    </level>
+    <level id="4">	
+        <label>Division 1</label>
+        <operator>/</operator>
+        <align>horizontal</align>
+		<increment>1</increment>
+        <sublevels>
+            <sublevel id="1">
+                <label>Ones</label>
+                <nums>
+                    <num id="1">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>1</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="2">
+                <label>Twos</label>
+                <nums>
+                    <num id="1">
+                        <min>2</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>2</min>
+                        <max>2</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="3">
+                <label>Threes</label>
+                <nums>
+                    <num id="1">
+                        <min>3</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>3</min>
+                        <max>3</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="4">
+                <label>Fours</label>
+                <nums>
+                    <num id="1">
+                        <min>4</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>4</min>
+                        <max>4</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="5">
+                <label>Five and Up</label>
+                <nums>
+                    <num id="1">
+                        <min>5</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>5</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="6">
+                <label>Review</label>
+                <nums>
+                    <num id="1">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel> 
+        </sublevels>
+    </level>
+    <level id="5">
+        <label>Addition 2</label>
+        <operator>+</operator>
+        <align>horizontal</align>
+		<increment>0</increment>
+        <sublevels>
+            <sublevel id="1">
+                <label>10 to 25</label>
+                <nums>
+                    <num id="1">
+                        <min>10</min>
+                        <max>25</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>            
+            </sublevel>
+            <sublevel id="2">
+                <label>26 to 50</label>
+                <nums>
+                    <num id="1">
+                        <min>26</min>
+                        <max>50</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="3">
+                <label>51 to 75</label>
+                <nums>
+                    <num id="1">
+                        <min>51</min>
+                        <max>75</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="4">
+                <label>76 to 100</label>
+                <nums>
+                    <num id="1">
+                        <min>76</min>
+                        <max>100</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="5">
+                <label>Review</label>
+                <nums>
+                    <num id="1">
+                        <min>10</min>
+                        <max>100</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel>
+        </sublevels>
+    </level>
+    <level id="6">
+        <label>Subtraction 2</label>
+        <operator>-</operator>
+        <align>horizontal</align>
+		<increment>5</increment>
+        <sublevels>
+            <sublevel id="1">
+                <label>10 to 25</label>
+                <nums>
+                    <num id="1">
+                        <min>10</min>
+                        <max>25</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>            
+            </sublevel>
+            <sublevel id="2">
+                <label>26 to 50</label>
+                <nums>
+                    <num id="1">
+                        <min>26</min>
+                        <max>50</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="3">
+                <label>51 to 75</label>
+                <nums>
+                    <num id="1">
+                        <min>51</min>
+                        <max>75</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="4">
+                <label>76 to 100</label>
+                <nums>
+                    <num id="1">
+                        <min>76</min>
+                        <max>100</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="5">
+                <label>Review</label>
+                <nums>
+                    <num id="1">
+                        <min>10</min>
+                        <max>100</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>10</max>
+                    </num>  
+                </nums>
+            </sublevel>
+        </sublevels>
+    </level>
+    <level id="7">
+        <label>Addition 3</label>
+        <operator>+</operator>
+        <align>horizontal</align>
+		<increment>5</increment>
+        <sublevels>
+            <sublevel id="1">
+                <label>10 to 25</label>
+                <nums>
+                    <num id="1">
+                        <min>10</min>
+                        <max>25</max>
+                    </num>
+                    <num id="2">
+                        <min>10</min>
+                        <max>25</max>
+                    </num>  
+                </nums>            
+            </sublevel>
+            <sublevel id="2">
+                <label>26 to 50</label>
+                <nums>
+                    <num id="1">
+                        <min>26</min>
+                        <max>50</max>
+                    </num>
+                    <num id="2">
+                        <min>26</min>
+                        <max>50</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="3">
+                <label>51 to 75</label>
+                <nums>
+                    <num id="1">
+                        <min>51</min>
+                        <max>75</max>
+                    </num>
+                    <num id="2">
+                        <min>51</min>
+                        <max>75</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="4">
+                <label>76 to 100</label>
+                <nums>
+                    <num id="1">
+                        <min>76</min>
+                        <max>100</max>
+                    </num>
+                    <num id="2">
+                        <min>76</min>
+                        <max>100</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="5">
+                <label>Review</label>
+                <nums>
+                    <num id="1">
+                        <min>10</min>
+                        <max>100</max>
+                    </num>
+                    <num id="2">
+                        <min>10</min>
+                        <max>100</max>
+                    </num>  
+                </nums>
+            </sublevel>
+        </sublevels>
+    </level>
+    <level id="8">
+        <label>Subtraction 3</label>
+        <operator>-</operator>
+        <align>horizontal</align>
+		<increment>5</increment>
+        <sublevels>
+            <sublevel id="1">
+                <label>10 to 25</label>
+                <nums>
+                    <num id="1">
+                        <min>10</min>
+                        <max>25</max>
+                    </num>
+                    <num id="2">
+                        <min>10</min>
+                        <max>25</max>
+                    </num>  
+                </nums>            
+            </sublevel>
+            <sublevel id="2">
+                <label>26 to 50</label>
+                <nums>
+                    <num id="1">
+                        <min>26</min>
+                        <max>50</max>
+                    </num>
+                    <num id="2">
+                        <min>26</min>
+                        <max>50</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="3">
+                <label>51 to 75</label>
+                <nums>
+                    <num id="1">
+                        <min>51</min>
+                        <max>75</max>
+                    </num>
+                    <num id="2">
+                        <min>51</min>
+                        <max>75</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="4">
+                <label>76 to 100</label>
+                <nums>
+                    <num id="1">
+                        <min>76</min>
+                        <max>100</max>
+                    </num>
+                    <num id="2">
+                        <min>76</min>
+                        <max>100</max>
+                    </num>  
+                </nums>
+            </sublevel>
+            <sublevel id="5">
+                <label>Review</label>
+                <nums>
+                    <num id="1">
+                        <min>10</min>
+                        <max>100</max>
+                    </num>
+                    <num id="2">
+                        <min>10</min>
+                        <max>100</max>
+                    </num>  
+                </nums>
+            </sublevel>
+        </sublevels>
+    </level>
+    <level id="9">	
+        <label>Squares</label>
+        <operator>^2</operator>
+        <align>horizontal</align>
+		<increment>10</increment>
+        <sublevels>
+            <sublevel id="1">
+                <label>Up to 25</label>
+                <nums>
+                    <num id="1">
+                        <min>1</min>
+                        <max>25</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>1</max>
+                    </num>  
+                </nums>
+            </sublevel>	
+            <sublevel id="2">
+                <label>26 to 50</label>
+                <nums>
+                    <num id="1">
+                        <min>26</min>
+                        <max>50</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>1</max>
+                    </num>  
+                </nums>
+            </sublevel>	
+            <sublevel id="3">
+                <label>51 to 75</label>
+                <nums>
+                    <num id="1">
+                        <min>51</min>
+                        <max>75</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>1</max>
+                    </num>  
+                </nums>
+            </sublevel>	
+            <sublevel id="4">
+                <label>75 to 99</label>
+                <nums>
+                    <num id="1">
+                        <min>75</min>
+                        <max>99</max>
+                    </num>
+                    <num id="2">
+                        <min>1</min>
+                        <max>1</max>
+                    </num>  
+                </nums>
+            </sublevel>
+		</sublevels>
+	</level>
+</levels>
+
+
