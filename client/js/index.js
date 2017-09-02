@@ -1,11 +1,13 @@
 import 'jquery-ui-dist/jquery-ui.css';
 import $ from 'jquery';
-import 'jquery-ui';
+import 'jquery-ui/ui/widgets/accordion';
+import 'jquery-ui.accordion.multiple';
 // Load jQuery
 //google.load("jquery", "1");
 
 var nGameMode = 1;
-
+var oTime;
+var nOldTime;
 var direction = 1;
 var position;
 var count = 0;
@@ -52,6 +54,7 @@ var levelSettings = function() {
     var label;
     var operator;
     var align;
+    var increment;
 
     return {
         set_xml : function(newXml) {
@@ -165,9 +168,10 @@ function incrementLevel() {
     var found = false;
     var label;
     var sublabel;
+    var increment;
     $(xml).find('level').each(function() {
         if ($(this).attr('id') == level) {
-			increment = $(this).find('increment').text();
+			  increment = $(this).find('increment').text();
             //alert('found level ' + $(this).attr('id'));
             $(this).find('sublevel').each(function() {
                 if ($(this).attr('id') == sublevel) {
@@ -194,7 +198,7 @@ function incrementLevel() {
     levelSettings.set_level(level);
     levelSettings.set_sublevel(sublevel);
     levelSettings.set_nums(nums);
-	levelSettings.set_increment(increment);
+	  levelSettings.set_increment(increment);
 }
 
 // todo: how can oMartian best extend a sprite class?
@@ -639,12 +643,12 @@ function loop()
 
     manageFrameRate();
     if (bPause) {
-        TICKER = setTimeout('loop()', bPause);
+        TICKER = setTimeout(loop, bPause);
         bPause = 0;
     } else if (bCapMode) {
-        TICKER = setTimeout('loop()', bCapTicker);
+        TICKER = setTimeout(loop, bCapTicker);
     } else {
-        TICKER = setTimeout('loop()',0);
+        TICKER = setTimeout(loop,0);
     }
 }
 
@@ -713,7 +717,8 @@ function init() {
     $('#level').text("Current Level: " + levelSettings.get_label());
 
     // BODY
-    oBody = document.getElementById("body")
+    oBody = document.getElementById("body");
+    oBody.addEventListener('keydown', scaninput);
     //oBody = $('#body');
 
     // CONTAINER
@@ -764,12 +769,13 @@ function init() {
     getSprites();
     makeSaucers(nSaucers);
 
-    TICKER = setTimeout("loop()", 0);
+    TICKER = setTimeout(loop, 0);
 }
 
 function scaninput(e)
 {
     nGameMode = 3;
+    e.preventDefault();
 }
 
 

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title> Math Martian (in development) </title>
+	<style type="text/css">
+		body { background: #000000; margin: 0; padding: 0; }
+		p { margin: 8px 32px; }
+		ul { margin: 0px; padding: 0px; list-style-type: none; }
+		li { margin: 0px; padding: 0px; }
+        #debug {
+            position:absolute;
+            left:10px;
+            top:10px;
+            width: 200px;
+            color: white;
+        }
+		#legend {
+			text-align: center;
+			color: white;
+		}
+		#legend h1 { font: normal 1.4em sans-serif; margin: 0; }
+		#legend a { color: white; font: normal 1.0em sans-serif; }
+		#rtmenu {
+			position: absolute;
+			margin-left: 10px;
+			margin-bottom: 0px;
+			z-index: 5;
+			width: 250px;
+		}
+		span.rtlvlmenu {
+			margin-left: 10px;
+		}
+		span.rtsubmenu {
+			margin-left: 20px;
+		}
+	</style>
+
+
+<meta charset="utf-8">
+<script type="text/javascript" src="app.js"></script>
+
+<body id='body'>
+<div id="data">
+
+<pre id="debug"></pre>
+</div>
+
+<div id="legend">
+<h1>*** == MATH MARTIAN == ***</h1>
+Code based on <a href="http://www.rebelideas.co.uk/games/hothstrike/">Hoth Strike</a>,
+Images from
+<a href="http://s167.photobucket.com/albums/u149/CEREAL_KILLER74/?action=view&current=baby-alien-walking.gif">
+CEREAL_KILLER74</a><p>
+Press any key when the Martian walks under the saucer with the correct answer.  Get five in a row correct
+to advance to the next level.
+<div id="level" style="font-weight:bold"></div>
+</div>
+
+<div id="rtmenu"></div>
+<div id="lftmenu"></div>
+
+
+</body>
+</html>
