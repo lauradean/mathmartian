@@ -30,7 +30,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:client": "webpack",
     "build:server": "babel server -d dist",
-    "build": "npm run build:client && npm run build:server"
+    "build": "npm run build:client && npm run build:server",
+    "start": "node dist/index"
   },
   "repository": {
     "type": "git",
